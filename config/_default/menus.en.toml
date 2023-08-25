@@ -15,7 +15,7 @@ weight = 2
 # Team List
 
 [[main]]
-weight = 5
+weight = 3
 name = "Our Team"
 hasChildren = true
 
@@ -40,7 +40,36 @@ parent = "Our Team"
 name = "Alumni"
 url = "alumni/"
 
-# footer menu
+# Gallery
+[[main]]
+weight = 4
+name = "Gallery"
+hasChildren = true
+
+[[main]]
+parent = "Gallery"
+name = "2010"
+url = "gallery/2010"
+
+
+[[main]]
+parent = "Gallery"
+name = "2009"
+url = "gallery/2009"
+
+
+[[main]]
+parent = "Gallery"
+name = "2008"
+url = "gallery/2008"
+
+
+[[main]]
+parent = "Gallery"
+name = "2007"
+url = "gallery/2007"
+
+# Footer menu
 [[footer]]
 name = "Terms of Serivce"
 url = "terms-of-service/"

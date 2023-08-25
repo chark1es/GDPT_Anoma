@@ -88,11 +88,11 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 
 ### Unordered List
 
-- List item
-- List item
-- List item
-- List item
-- List item
+-   List item
+-   List item
+-   List item
+-   List item
+-   List item
 
 <hr>
 
@@ -154,25 +154,25 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 {{< accordion "Why should you need to do this?" >}}
 
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
+-   Lorem ipsum dolor sit amet consectetur adipisicing elit.
+-   Lorem ipsum dolor sit amet consectetur adipisicing elit.
+-   Lorem ipsum dolor sit amet consectetur
 
 {{< /accordion >}}
 
 {{< accordion "How can I adjust Horizontal centering" >}}
 
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
+-   Lorem ipsum dolor sit amet consectetur adipisicing elit.
+-   Lorem ipsum dolor sit amet consectetur adipisicing elit.
+-   Lorem ipsum dolor sit amet consectetur
 
 {{< /accordion >}}
 
 {{< accordion "Should you use Negative margin?" >}}
 
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
+-   Lorem ipsum dolor sit amet consectetur adipisicing elit.
+-   Lorem ipsum dolor sit amet consectetur adipisicing elit.
+-   Lorem ipsum dolor sit amet consectetur
 
 {{< /accordion >}}
 
@@ -218,7 +218,7 @@ print s
 
 ### Gallery
 
-{{< gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
+{{< gallery dir="images/gallery/2007" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
 
 <hr>
 
