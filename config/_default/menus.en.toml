@@ -1,0 +1,54 @@
+############# English navigation ##############
+
+# Main Navigation
+
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 2
+
+# Team List
+
+[[main]]
+weight = 5
+name = "Our Team"
+hasChildren = true
+
+[[main]]
+parent = "Our Team"
+name = "Huynh Troung"
+url = "huynh-truong/"
+
+
+[[main]]
+parent = "Our Team"
+name = "Huynh Troung in Training"
+url = "huynh-truong-in-training/"
+
+[[main]]
+parent = "Our Team"
+name = "Thieu"
+url = "thieu/"
+
+[[main]]
+parent = "Our Team"
+name = "Alumni"
+url = "alumni/"
+
+# footer menu
+[[footer]]
+name = "Terms of Serivce"
+url = "terms-of-service/"
+weight = 1
+
+
+
+[[footer]]
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 2
