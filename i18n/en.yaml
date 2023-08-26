@@ -30,3 +30,24 @@
 
 - id: empty_search_results_placeholder
   translation: Type something to search..
+
+- id: full_name
+  translation: Full Name
+
+- id: email_address
+  translation: Email Address
+
+- id: message
+  translation: Message
+
+- id: message_goes_here
+  translation: Message goes here...
+
+- id: footer_l1
+  translation: Designed by Charles Nguyen for GĐPT Anôma
+
+- id: footer_l2
+  translation: 14867 Spinning Avenue, Gardena, CA, 90249
+
+- id: footer_l3
+  translation: Copyright © GĐPT Anôma 2023. All Rights Reserved

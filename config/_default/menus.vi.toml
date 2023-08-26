@@ -3,23 +3,23 @@
 # Main Navigation
 
 [[main]]
-name = "Home"
+name = "Trang chủ"
 url = "/"
 weight = 1
 
 [[main]]
 weight = 2
-name = "About Us"
+name = "Về chúng tôi"
 hasChildren = true
 
 [[main]]
-parent = "About Us"
+parent = "Về chúng tôi"
 name = "GĐPT Anôma"
 url = "about-us/gdpt-anoma"
 weight = 1
 
 [[main]]
-parent = "About Us"
+parent = "Về chúng tôi"
 name = "Van Hanh Foundation"
 url = "about-us/van-hanh-foundation"
 weight = 2
@@ -29,25 +29,25 @@ weight = 2
 
 [[main]]
 weight = 4
-name = "Important Information"
+name = "Thông tin quan trọng"
 hasChildren = true
 
 
 [[main]]
-parent = "Important Information"
-name = "Our Location"
+parent = "Thông tin quan trọng"
+name = "Địa điểm của chúng tôi"
 url = "important-information/our-location"
 weight = 1
 
 [[main]]
-parent = "Important Information"
-name = "Registration"
+parent = "Thông tin quan trọng"
+name = "Sự đăng ký"
 url = "important-information/registration"
 weight = 2
 
 [[main]]
-parent = "Important Information"
-name = "Liability Waiver"
+parent = "Thông tin quan trọng"
+name = "Có khả năng tước bỏ"
 url = "important-information/liability-waiver"
 weight = 3 
 
@@ -55,58 +55,53 @@ weight = 3
 
 [[main]]
 weight = 4
-name = "Our Team"
+name = "Đội của chúng tôi"
 hasChildren = true
 
 [[main]]
-parent = "Our Team"
-name = "Huynh Troung"
+parent = "Đội của chúng tôi"
+name = "Huynh Trưởng"
 url = "our-team/huynh-truong/"
+weight = 1
 
 
 [[main]]
-parent = "Our Team"
-name = "Huynh Troung in Training"
+parent = "Đội của chúng tôi"
+name = "Huynh Trưởng trong đào tạo"
 url = "our-team/huynh-truong-in-training/"
+weight = 2
+
 
 [[main]]
-parent = "Our Team"
-name = "Thieu"
-url = "our-team/thieu/"
-
-[[main]]
-parent = "Our Team"
-name = "Alumni"
+parent = "Đội của chúng tôi"
+name = "Cựu sinh viên"
 url = "our-team/alumni/"
+weight = 3
 
 # Gallery
 [[main]]
 weight = 5
-name = "Gallery"
+name = "Phòng trưng bày"
 hasChildren = true
 
-[[main]]
-parent = "Gallery"
-name = "2010"
-url = "gallery/2010/"
 
 
 [[main]]
-parent = "Gallery"
+parent = "Phòng trưng bày"
 name = "2009"
 url = "gallery/2009/"
 
 
 [[main]]
-parent = "Gallery"
+parent = "Phòng trưng bày"
 name = "2008"
 url = "gallery/2008/"
 
 
 [[main]]
-parent = "Gallery"
-name = "2007"
-url = "gallery/2007/"
+parent = "Phòng trưng bày"
+name = "2003"
+url = "gallery/2003/"
 
 [[main]]
 name = "Blog"
@@ -118,11 +113,11 @@ weight = 6
 
 # Footer menu
 [[footer]]
-name = "Terms of Serivce"
+name = "Điều khoản dịch vụ"
 url = "terms-of-service/"
 weight = 1
 
 [[footer]]
-name = "Privacy Policy"
+name = "Chính sách bảo mật"
 url = "privacy-policy/"
 weight = 2

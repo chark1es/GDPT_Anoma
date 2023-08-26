@@ -84,10 +84,6 @@ weight = 5
 name = "Gallery"
 hasChildren = true
 
-[[main]]
-parent = "Gallery"
-name = "2010"
-url = "gallery/2010/"
 
 
 [[main]]
@@ -104,11 +100,6 @@ url = "gallery/2008/"
 
 [[main]]
 parent = "Gallery"
-name = "2007"
-url = "gallery/2007/"
-
-[[main]]
-parent = "Gallery"
 name = "2003"
 url = "gallery/2003/"
 
@@ -122,7 +113,7 @@ weight = 6
 
 # Footer menu
 [[footer]]
-name = "Terms of Serivce"
+name = "Terms of Service"
 url = "terms-of-service/"
 weight = 1
 

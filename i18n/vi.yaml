@@ -1,0 +1,53 @@
+- id: home
+  translation: Trang chủ
+
+- id: read_more
+  translation: Đọc thêm
+
+- id: send
+  translation: Gửi
+
+- id: related_posts
+  translation: Bài viết liên quan
+
+- id: categories
+  translation: Thể loại
+
+- id: tags
+  translation: Thẻ
+
+- id: toc
+  translation: Mục lục
+
+- id: share
+  translation: Chia sẻ
+
+- id: search_input_placeholder
+  translation: Tìm kiếm bài viết ...
+
+- id: no_results_for
+  translation: Không có kết quả cho
+
+- id: empty_search_results_placeholder
+  translation: Nhập nội dung nào đó để tìm kiếm..
+
+- id: full_name
+  translation: Họ và tên
+
+- id: email_address
+  translation: Địa chỉ email
+
+- id: message
+  translation: Tin nhắn
+
+- id: message_goes_here
+  translation: Tin nhắn đến đây...
+
+- id: footer_l1
+  translation: Được thiết kế bởi Charles Nguyễn cho GĐPT Anôma
+
+- id: footer_l2
+  translation: 14867 Spinning Avenue, Gardena, CA, 90249
+
+- id: footer_l3
+  translation: Copyright © GĐPT Anôma 2023. All Rights Reserved
