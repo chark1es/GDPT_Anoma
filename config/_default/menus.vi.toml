@@ -8,74 +8,119 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "About"
-url = "about/"
 weight = 2
+name = "About Us"
+hasChildren = true
+
+[[main]]
+parent = "About Us"
+name = "GĐPT Anôma"
+url = "about-us/gdpt-anoma"
+weight = 1
+
+[[main]]
+parent = "About Us"
+name = "Van Hanh Foundation"
+url = "about-us/van-hanh-foundation"
+weight = 2
+
 
 # Team List
 
 [[main]]
-weight = 3
+weight = 4
+name = "Important Information"
+hasChildren = true
+
+
+[[main]]
+parent = "Important Information"
+name = "Our Location"
+url = "important-information/our-location"
+weight = 1
+
+[[main]]
+parent = "Important Information"
+name = "Registration"
+url = "important-information/registration"
+weight = 2
+
+[[main]]
+parent = "Important Information"
+name = "Liability Waiver"
+url = "important-information/liability-waiver"
+weight = 3 
+
+# Team List
+
+[[main]]
+weight = 4
 name = "Our Team"
 hasChildren = true
 
 [[main]]
 parent = "Our Team"
 name = "Huynh Troung"
-url = "huynh-truong/"
+url = "our-team/huynh-truong/"
 
 
 [[main]]
 parent = "Our Team"
 name = "Huynh Troung in Training"
-url = "huynh-truong-in-training/"
+url = "our-team/huynh-truong-in-training/"
 
 [[main]]
 parent = "Our Team"
 name = "Thieu"
-url = "thieu/"
+url = "our-team/thieu/"
 
 [[main]]
 parent = "Our Team"
 name = "Alumni"
-url = "alumni/"
+url = "our-team/alumni/"
 
 # Gallery
 [[main]]
-weight = 4
+weight = 5
 name = "Gallery"
 hasChildren = true
 
 [[main]]
 parent = "Gallery"
 name = "2010"
-url = "gallery/2010"
+url = "gallery/2010/"
 
 
 [[main]]
 parent = "Gallery"
 name = "2009"
-url = "gallery/2009"
+url = "gallery/2009/"
 
 
 [[main]]
 parent = "Gallery"
 name = "2008"
-url = "gallery/2008"
+url = "gallery/2008/"
 
 
 [[main]]
 parent = "Gallery"
 name = "2007"
-url = "gallery/2007"
+url = "gallery/2007/"
+
+[[main]]
+name = "Blog"
+url = "/blog"
+weight = 6
+
+
+
 
 # Footer menu
 [[footer]]
 name = "Terms of Serivce"
 url = "terms-of-service/"
 weight = 1
-
-
 
 [[footer]]
 name = "Privacy Policy"

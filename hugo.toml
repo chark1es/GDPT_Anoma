@@ -2,11 +2,11 @@
 # The base URL of your site (required). This will be prepended to all relative URLs.
 baseURL = "/"
 # Title of your website (required).
-title = "Hugoplate"
+title = "GĐPT Anôma"
 # Your theme name
-theme = "hugoplate"
+theme = ["hugo-embed-pdf-shortcode","hugoplate"]
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
-timeZone = "America/New_York"
+timeZone = "America/Los_Angeles"
 # post pagination
 paginate = 2 # see https://gohugo.io/extras/pagination/
 # post excerpt
@@ -20,6 +20,7 @@ disableLanguages = [
 ] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
 timeout=600
+enableInlineShortcodes = true
 
 ########################## Permalinks ############################
 [permalinks.page]
@@ -87,7 +88,7 @@ maxAge = "720h"
 unsafe = true
 
 [markup.highlight]
-style = 'monokai' # see https://xyproto.github.io/splash/docs/all.html
+style = 'monokailight' # see https://xyproto.github.io/splash/docs/all.html
 
 [markup.tableOfContents]
 startLevel = 2
