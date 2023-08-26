@@ -1,5 +1,5 @@
 ---
-title: "A day in december"
+title: "A Day in December"
 # save as draft
 draft: false
 ---
