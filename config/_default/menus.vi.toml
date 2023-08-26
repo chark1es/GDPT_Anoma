@@ -1,6 +1,7 @@
 ############# English navigation ##############
 
-# main menu
+# Main Navigation
+
 [[main]]
 name = "Home"
 url = "/"
@@ -11,54 +12,72 @@ name = "About"
 url = "about/"
 weight = 2
 
-[[main]]
-name = "Elements"
-url = "elements/"
-weight = 3
+# Team List
 
 [[main]]
-weight = 4
-name = "Pages"
+weight = 3
+name = "Our Team"
 hasChildren = true
 
 [[main]]
-parent = "Pages"
-name = "Blog"
-url = "blog/"
+parent = "Our Team"
+name = "Huynh Troung"
+url = "huynh-truong/"
+
 
 [[main]]
-parent = "Pages"
-name = "Contact"
-url = "contact/"
+parent = "Our Team"
+name = "Huynh Troung in Training"
+url = "huynh-truong-in-training/"
 
 [[main]]
-parent = "Pages"
-name = "Authors"
-url = "authors/"
+parent = "Our Team"
+name = "Thieu"
+url = "thieu/"
 
 [[main]]
-parent = "Pages"
-name = "Categories"
-url = "categories/"
+parent = "Our Team"
+name = "Alumni"
+url = "alumni/"
+
+# Gallery
+[[main]]
+weight = 4
+name = "Gallery"
+hasChildren = true
 
 [[main]]
-parent = "Pages"
-name = "404 Page"
-url = "404/"
+parent = "Gallery"
+name = "2010"
+url = "gallery/2010"
 
 
-# footer menu
+[[main]]
+parent = "Gallery"
+name = "2009"
+url = "gallery/2009"
+
+
+[[main]]
+parent = "Gallery"
+name = "2008"
+url = "gallery/2008"
+
+
+[[main]]
+parent = "Gallery"
+name = "2007"
+url = "gallery/2007"
+
+# Footer menu
 [[footer]]
-name = "About"
-url = "about/"
+name = "Terms of Serivce"
+url = "terms-of-service/"
 weight = 1
 
-[[footer]]
-name = "Elements"
-url = "elements/"
-weight = 2
+
 
 [[footer]]
 name = "Privacy Policy"
 url = "privacy-policy/"
-weight = 3
+weight = 2

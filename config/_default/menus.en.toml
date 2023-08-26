@@ -12,10 +12,14 @@ name = "About"
 url = "about/"
 weight = 2
 
+[[main]]
+name = "Van Hanh Foundation"
+url = "van-hanh-foundation/"
+weight = 3
 # Team List
 
 [[main]]
-weight = 3
+weight = 4
 name = "Our Team"
 hasChildren = true
 
@@ -42,32 +46,32 @@ url = "alumni/"
 
 # Gallery
 [[main]]
-weight = 4
+weight = 5
 name = "Gallery"
 hasChildren = true
 
 [[main]]
 parent = "Gallery"
 name = "2010"
-url = "gallery/2010"
+url = "gallery/2010/photos"
 
 
 [[main]]
 parent = "Gallery"
 name = "2009"
-url = "gallery/2009"
+url = "gallery/2009/photos"
 
 
 [[main]]
 parent = "Gallery"
 name = "2008"
-url = "gallery/2008"
+url = "gallery/2008/photos"
 
 
 [[main]]
 parent = "Gallery"
 name = "2007"
-url = "gallery/2007"
+url = "gallery/2007/photos"
 
 # Footer menu
 [[footer]]
