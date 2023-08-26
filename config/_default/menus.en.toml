@@ -108,6 +108,11 @@ name = "2007"
 url = "gallery/2007/"
 
 [[main]]
+parent = "Gallery"
+name = "2003"
+url = "gallery/2003/"
+
+[[main]]
 name = "Blog"
 url = "/blog"
 weight = 6
