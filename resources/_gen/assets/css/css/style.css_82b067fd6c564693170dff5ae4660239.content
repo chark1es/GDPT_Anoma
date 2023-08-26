@@ -12216,6 +12216,14 @@ input#nav-toggle:checked ~ #nav-menu {
   display: block;
 }
 
+@media (prefers-color-scheme: dark) {
+
+  .dark\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+}
+
 @media (min-width: 540px) {
 
   .sm\:block {
@@ -12344,10 +12352,10 @@ input#nav-toggle:checked ~ #nav-menu {
     display: none;
   }
 
-  .xl\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  .xl\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(1rem * var(--tw-space-x-reverse));
-    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .xl\:bg-blue-200 {
