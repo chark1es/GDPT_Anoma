@@ -11145,9 +11145,6 @@ input#nav-toggle:checked ~ #nav-menu {
 .border-b {
   border-bottom-width: 1px;
 }
-.border-r {
-  border-right-width: 1px;
-}
 .border-t {
   border-top-width: 1px;
 }
@@ -11253,9 +11250,6 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 .pl-2 {
   padding-left: 0.5rem;
-}
-.pr-5 {
-  padding-right: 1.25rem;
 }
 .pt-14 {
   padding-top: 3.5rem;

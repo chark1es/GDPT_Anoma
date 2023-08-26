@@ -42,9 +42,9 @@ link = "contact"
 
 # search
 [search]
-enable = true
+enable = false
 primary_color = "#121212"
-include_sections = ["blog"]
+include_sections = ["blog", "about", "gallery"]
 show_image = true
 show_description = true
 show_tags = true

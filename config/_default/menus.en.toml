@@ -53,25 +53,25 @@ hasChildren = true
 [[main]]
 parent = "Gallery"
 name = "2010"
-url = "gallery/2010/photos"
+url = "gallery/2010/"
 
 
 [[main]]
 parent = "Gallery"
 name = "2009"
-url = "gallery/2009/photos"
+url = "gallery/2009/"
 
 
 [[main]]
 parent = "Gallery"
 name = "2008"
-url = "gallery/2008/photos"
+url = "gallery/2008/"
 
 
 [[main]]
 parent = "Gallery"
 name = "2007"
-url = "gallery/2007/photos"
+url = "gallery/2007/"
 
 # Footer menu
 [[footer]]
