@@ -16,13 +16,13 @@ hasChildren = true
 parent = "About Us"
 name = "GĐPT Anôma"
 url = "about-us/gdpt-anoma"
-weight = 1
+
 
 [[main]]
 parent = "About Us"
 name = "Van Hanh Foundation"
 url = "about-us/van-hanh-foundation"
-weight = 2
+
 
 
 # Team List
