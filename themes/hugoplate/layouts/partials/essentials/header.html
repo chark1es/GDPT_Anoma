@@ -43,7 +43,7 @@
         <!-- main navbar -->
         <ul
             id="nav-menu"
-            class="navbar-nav order-3 hidden xl:flex w-full pb-6 xl:order-1 xl:w-auto xl:space-x-2 xl:pb-0 xl:space-x-4 select-none"
+            class="navbar-nav order-3 hidden xl:flex w-full pb-6 xl:order-1 xl:w-auto xl:pb-0 xl:space-x-4 select-none relative bg-white"
         >
             {{ $currentPage := . }} {{ range site.Menus.main }} {{ $menuURL :=
             .URL | absLangURL }} {{ $pageURL:= $currentPage.Permalink |
@@ -62,7 +62,9 @@
                         />
                     </svg>
                 </span>
-                <ul class="nav-dropdown-list hidden group-hover:block">
+                <ul
+                    class="nav-dropdown-list hidden group-hover:block xl:absolute"
+                >
                     {{ range .Children }} {{ $childURL := .URL | absLangURL }}
                     {{ $active := eq $childURL $pageURL }}
                     <li class="nav-dropdown-item">
@@ -98,26 +100,24 @@
             </li>
 
             <script>
-                var openDropdown = null;
-
                 function toggleDropdown(element) {
                     var dropdownList = element.nextElementSibling;
 
                     if (openDropdown !== dropdownList) {
                         // Close previously opened dropdown
                         if (openDropdown !== null) {
-                            openDropdown.classList.add("hidden");
+                            openDropdown.classList.remove("show");
                         }
 
                         // Open clicked dropdown
-                        dropdownList.classList.remove("hidden");
+                        dropdownList.classList.add("show");
                         openDropdown = dropdownList;
                     } else {
                         // Toggle visibility of the same dropdown
-                        dropdownList.classList.toggle("hidden");
-                        openDropdown = dropdownList.classList.contains("hidden")
-                            ? null
-                            : dropdownList;
+                        dropdownList.classList.toggle("show");
+                        openDropdown = dropdownList.classList.contains("show")
+                            ? dropdownList
+                            : null;
                     }
                 }
 

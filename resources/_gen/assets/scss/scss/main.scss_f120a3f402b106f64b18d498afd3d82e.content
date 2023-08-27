@@ -86,6 +86,16 @@
     @apply prose-td:relative prose-td:z-10 prose-td:px-3 prose-td:py-[18px]; }
     .content .btn {
       @apply no-underline hover:text-white !important; }
+  .dropdown-container {
+    position: relative;
+    /* Ensure relative positioning for absolute children */ }
+  .dropdown-list {
+    position: absolute;
+    top: 100%;
+    /* Position below the dropdown link */
+    left: 0;
+    z-index: 999;
+    /* Adjust as needed */ }
   input#nav-toggle:checked + label #show-button {
     @apply hidden; }
   input#nav-toggle:checked + label #hide-button {
