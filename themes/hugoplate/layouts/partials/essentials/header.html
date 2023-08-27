@@ -65,13 +65,13 @@
                     </svg>
                 </span>
                 <ul
-                    class="nav-dropdown-list hidden group-hover:block lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100 select-none pointer-events-auto"
+                    class="nav-dropdown-list hidden group-hover:block invisible absolute opacity-0 group-hover:visible group-hover:opacity-100 select-none pointer-events-auto"
                 >
                     {{ range .Children }} {{ $childURL := .URL | absLangURL }}
                     {{ $active := eq $childURL $pageURL }}
                     <li class="nav-dropdown-item">
                         <a
-                            class="nav-dropdown-link lg:hover:block lg:group-hover:visible lg:group-hover:opacity-100
+                            class="nav-dropdown-link 
                             {{ if $active }}
                       active
                     {{- end -}}"
