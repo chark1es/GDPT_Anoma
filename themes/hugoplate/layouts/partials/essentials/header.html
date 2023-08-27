@@ -65,7 +65,7 @@
                     </svg>
                 </span>
                 <ul
-                    class="nav-dropdown-list hidden group-hover:block group-focus:block lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-focus:visible lg:group-hover:opacity-100 select-none lg:group-focus:opacity-100"
+                    class="nav-dropdown-list hidden group-focus:block lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-focus:visible select-none lg:group-focus:opacity-100"
                 >
                     {{ range .Children }} {{ $childURL := .URL | absLangURL }}
                     {{ $active := eq $childURL $pageURL }}
