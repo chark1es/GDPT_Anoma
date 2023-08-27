@@ -52,8 +52,8 @@
             <li class="nav-item nav-dropdown group relative">
                 <span
                     class="nav-link inline-flex items-center"
-                    onclick="toggleDropdown(this)"
-                    ontouchstart="toggleDropdown(this)"
+                    onclick="isClickable(this) && toggleDropdown(this)"
+                    ontouchstart="isClickable(this) && toggleDropdown(this)"
                 >
                     {{ .Name }}
                     <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
@@ -98,9 +98,31 @@
             </li>
 
             <script>
+                var openDropdown = null;
+
                 function toggleDropdown(element) {
                     var dropdownList = element.nextElementSibling;
-                    dropdownList.classList.toggle("hidden");
+
+                    if (openDropdown !== dropdownList) {
+                        // Close previously opened dropdown
+                        if (openDropdown !== null) {
+                            openDropdown.classList.add("hidden");
+                        }
+
+                        // Open clicked dropdown
+                        dropdownList.classList.remove("hidden");
+                        openDropdown = dropdownList;
+                    } else {
+                        // Toggle visibility of the same dropdown
+                        dropdownList.classList.toggle("hidden");
+                        openDropdown = dropdownList.classList.contains("hidden")
+                            ? null
+                            : dropdownList;
+                    }
+                }
+
+                function isClickable(element) {
+                    return !element.classList.contains("hidden");
                 }
             </script>
             {{ else }}
