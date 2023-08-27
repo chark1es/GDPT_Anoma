@@ -11,4 +11,4 @@ All liability waivers will be shown here. Please scroll down to find the one tha
 
 #### Picnic Waiver for July 23, 2023:
 
-{{< embed-pdf url="../../pdfs/picnic_waiver_07_23_2023.pdf" >}}
+{{< pdfReader "../../pdfs/picnic_waiver_07_23_2023.pdf" >}}
