@@ -5,4 +5,4 @@ image: "/images/avatar.png"
 description: Some rank
 ---
 
-Some description here
+Một số mô tả ở đây

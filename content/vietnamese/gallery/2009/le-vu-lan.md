@@ -1,5 +1,5 @@
 ---
-title: "Le Vu Lan"
+title: "Lễ Vu Lan"
 # save as draft
 draft: false
 ---
