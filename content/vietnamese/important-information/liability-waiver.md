@@ -11,4 +11,4 @@ Tất cả các miễn trừ trách nhiệm pháp lý sẽ được hiển thị
 
 ### Miễn trừ dã ngoại ngày 23/07/2023:
 
-{{< embed-pdf url="../../pdfs/picnic_waiver_07_23_2023.pdf" >}}
+{{< pdf "https://drive.google.com/file/d/1k_7moqh6Ia7-MSaBMkqcJ2PkBOhkbaqb/view?usp=sharing" "Picnic Waiver" >}}
