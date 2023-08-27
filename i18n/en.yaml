@@ -37,6 +37,9 @@
 - id: email_address
   translation: Email Address
 
+- id: phone_number
+  translation: Phone Number
+
 - id: message
   translation: Message
 

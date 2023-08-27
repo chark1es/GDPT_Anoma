@@ -19,6 +19,7 @@
                             class="form-input"
                             placeholder="John Doe"
                             type="text"
+                            required = true
                         />
                     </div>
                     <div class="mb-6">
@@ -32,7 +33,25 @@
                             class="form-input"
                             placeholder="john.doe@email.com"
                             type="email"
+                            required = true
                         />
+                    </div>
+                    <div class="mb-6">
+                        <label for="phone_number" class="form-label">
+                            {{ i18n "phone_number" }}
+                            <span class="text-red-500">*</span>
+                        </label>
+                        <input
+                            id="phone_number"
+                            name="phone number"
+                            class="form-input"
+                            placeholder = "123-456-7890"
+                            type="tel"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+                            rows="1"
+                            required = true
+                          />
+                      
                     </div>
                     <div class="mb-6">
                         <label for="message" class="form-label">
@@ -45,6 +64,7 @@
                             class="form-input"
                             placeholder = {{ i18n "message_goes_here" }}
                             rows="8"
+                            required = true
                         ></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">

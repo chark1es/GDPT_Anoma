@@ -37,6 +37,9 @@
 - id: email_address
   translation: Địa chỉ email
 
+- id: phone_number
+  translation: số điện thoại
+
 - id: message
   translation: Tin nhắn
 
