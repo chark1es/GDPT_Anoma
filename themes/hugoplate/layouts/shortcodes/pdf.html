@@ -6,9 +6,9 @@
     </head>
     <body>
         <div id="app">
-            {{ $url := .Get 0 }} {{ $startIndex := add (sub (find $url "d/") 2)
-            (len "d/") }} {{ $endIndex := find (slice $url $startIndex) "/" }}
-            {{ $ID := slice $url $startIndex $endIndex }}
+            {{ $url := .Get 0 }} {{ $startIndex := add (sub (index $url "d/") 2)
+            2 }} {{ $endIndex := index $url "/" $startIndex }} {{ $ID := slice
+            $url $startIndex $endIndex }}
 
             <iframe
                 src="https://drive.google.com/file/d/{{$ID}}/preview"
