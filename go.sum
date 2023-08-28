@@ -42,5 +42,3 @@ github.com/gethugothemes/hugo-modules/table-of-contents v0.0.0-20230823074046-d7
 github.com/gethugothemes/hugo-modules/table-of-contents v0.0.0-20230823074046-d7ebb75df8b9/go.mod h1:bEDw4veccQQQYEdVrfu13ATRUWfW8ptDIjJZuhYh4Tw=
 github.com/gethugothemes/hugo-modules/videos v0.0.0-20230823074046-d7ebb75df8b9 h1:hNMkJI75hhs8KHjOD/h+SCg6RtIR/UVvdteeac+YYFg=
 github.com/gethugothemes/hugo-modules/videos v0.0.0-20230823074046-d7ebb75df8b9/go.mod h1:P722lLWdnNhdZVq6gvMrOLqECUwrAYQWaOWlChta5H0=
-github.com/zeon-studio/hugoplate v0.0.0-20230820074946-34cb72d4ce47 h1:lqVNXd1lCnwy/mXynHo3i+YybL+Nm+pnyGtZ+sdOf+I=
-github.com/zeon-studio/hugoplate v0.0.0-20230820074946-34cb72d4ce47/go.mod h1:YlRIwdTWidquf1dhtx+mDfu0I3KVrVQB4wi4UmHlK3E=
