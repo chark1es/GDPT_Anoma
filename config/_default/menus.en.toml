@@ -60,14 +60,14 @@ hasChildren = true
 
 [[main]]
 parent = "Our Team"
-name = "Huynh Troung"
+name = "Huynh Truong"
 url = "our-team/huynh-truong/"
 weight = 1
 
 
 [[main]]
 parent = "Our Team"
-name = "Huynh Troung in Training"
+name = "Huynh Truong in Training"
 url = "our-team/huynh-truong-in-training/"
 weight = 2
 
