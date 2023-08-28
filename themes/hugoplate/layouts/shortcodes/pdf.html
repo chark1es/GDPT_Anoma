@@ -6,9 +6,16 @@
     </head>
     <body>
         <div id="app">
-            {{ $url := .Get 0 }} {{ $url = replaceRE "^(.*)/view.*$"
-            "$1/preview" $url }}
-            <iframe src="{{ $url }}" width="100%" height="1000"> </iframe>
+            {{ $url := .Get 0 }} {{ $startIndex := add (sub (find $url "d/") 2)
+            (len "d/") }} {{ $endIndex := find (slice $url $startIndex) "/" }}
+            {{ $ID := slice $url $startIndex $endIndex }}
+
+            <iframe
+                src="https://drive.google.com/file/d/{{$ID}}/preview"
+                width="100%"
+                height="1000"
+            >
+            </iframe>
         </div>
     </body>
 </html>
