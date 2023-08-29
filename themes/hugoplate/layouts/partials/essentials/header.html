@@ -1,5 +1,5 @@
 <header
-    class="header {{ if site.Params.navbar_fixed }}sticky top-0{{ end }} z-30 "
+    class="header {{ if site.Params.navbar_fixed }}sticky top-0{{ end }} z-30"
 >
     <nav class="navbar container">
         <!-- logo -->
@@ -14,9 +14,10 @@
         </div>
         <!-- navbar toggler -->
         <input id="nav-toggle" type="checkbox" class="hidden" />
+        <input id="nav-toggle" type="checkbox" class="hidden" />
         <label
             for="nav-toggle"
-            class="order-3 cursor-pointer flex items-center xl:hidden text-dark xl:order-1 select-none"
+            class="order-3 cursor-pointer flex items-center lg:hidden text-dark lg:order-1"
         >
             <svg
                 id="show-button"
@@ -43,7 +44,7 @@
         <!-- main navbar -->
         <ul
             id="nav-menu"
-            class="navbar-nav order-3 hidden xl:flex w-full pb-6 xl:order-1 xl:w-auto xl:pb-0 xl:space-x-4 select-none relative bg-white"
+            class="navbar-nav order-3 hidden xl:flex w-full pb-6 xl:order-1 xl:w-auto xl:space-x-2 xl:pb-0"
         >
             {{ $currentPage := . }} {{ range site.Menus.main }} {{ $menuURL :=
             .URL | absLangURL }} {{ $pageURL:= $currentPage.Permalink |
@@ -51,9 +52,11 @@
             .HasChildren }}
             <li class="nav-item nav-dropdown group relative">
                 <span
-                    class="nav-link inline-flex items-center"
-                    onclick="isClickable(this) && toggleDropdown(this)"
-                    ontouchstart="isClickable(this) && toggleDropdown(this)"
+                    class="nav-link {{ range .Children }}
+                {{ $childURL := .URL | absLangURL }}
+                {{ $active := eq $childURL $pageURL }}
+                {{ if $active }}active{{ end }}
+              {{ end }} inline-flex items-center "
                 >
                     {{ .Name }}
                     <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
@@ -63,27 +66,28 @@
                     </svg>
                 </span>
                 <ul
-                    class="nav-dropdown-list hidden group-hover:block xl:absolute"
+                    class="nav-dropdown-list xl:group-hover:visible xl:group-hover:opacity-100"
                 >
-                    {{ range .Children }} {{ $childURL := .URL | absLangURL }}
-                    {{ $active := eq $childURL $pageURL }}
-                    <li class="nav-dropdown-item">
-                        <a
-                            class="nav-dropdown-link {{ if $active }}
+                    <div class="bg-body z-10 min-w-[180px] rounded p-4 shadow">
+                        {{ range .Children }} {{ $childURL := .URL | absLangURL
+                        }} {{ $active := eq $childURL $pageURL }}
+                        <li class="nav-dropdown-item">
+                            <a
+                                class="nav-dropdown-link {{ if $active }}
                       active
                     {{- end -}}"
-                            {{
-                            if
-                            findRE
-                            `^http`
-                            .URL
-                            }}
-                            target="_blank"
-                            rel="noopener"
-                            {{
-                            end
-                            }}
-                            href="{{- if findRE `^#` .URL -}}
+                                {{
+                                if
+                                findRE
+                                `^http`
+                                .URL
+                                }}
+                                target="_blank"
+                                rel="noopener"
+                                {{
+                                end
+                                }}
+                                href="{{- if findRE `^#` .URL -}}
                       {{- if not $.IsHome -}}
                         {{- site.BaseURL | relLangURL -}}
                       {{- end }}
@@ -91,40 +95,16 @@
                     {{- else -}}
                       {{- .URL | relLangURL -}}
                     {{- end -}}"
-                        >
-                            {{ .Name }}
-                        </a>
-                    </li>
-                    {{ end }}
+                            >
+                                {{ .Name }}
+                            </a>
+                        </li>
+
+                        {{ end }}
+                    </div>
+                    <div class="pb-4"></div>
                 </ul>
             </li>
-
-            <script>
-                function toggleDropdown(element) {
-                    var dropdownList = element.nextElementSibling;
-
-                    if (openDropdown !== dropdownList) {
-                        // Close previously opened dropdown
-                        if (openDropdown !== null) {
-                            openDropdown.classList.remove("show");
-                        }
-
-                        // Open clicked dropdown
-                        dropdownList.classList.add("show ");
-                        openDropdown = dropdownList;
-                    } else {
-                        // Toggle visibility of the same dropdown
-                        dropdownList.classList.toggle("show");
-                        openDropdown = dropdownList.classList.contains("show")
-                            ? dropdownList
-                            : null;
-                    }
-                }
-
-                function isClickable(element) {
-                    return !element.classList.contains("hidden");
-                }
-            </script>
             {{ else }}
             <li class="nav-item">
                 <a
@@ -166,13 +146,14 @@
             {{ with site.Params.search }} {{ if .enable }}
             <button
                 aria-label="search"
-                class="border-border text-dark hover:text-primary mr-5 inline-block border-r pr-5 text-xl"
+                class="border-border text-dark hover:text-primary dark:border-darkmode-border mr-5 inline-block border-r pr-5 text-xl dark:text-white"
                 data-target="search-modal"
             >
                 <i class="fa-solid fa-search"></i>
             </button>
             {{ end }} {{ end }} {{ partial "components/language-switcher" (dict
-            "Context" . "Class" "mr-5 pl-2 py-1 rounded") }}
+            "Context" . "Class" "mr-5 pl-2 py-1 rounded") }} {{ partial
+            "components/theme-switcher" (dict "Class" "mr-5") }}
 
             <!-- navigation btn -->
             {{ if site.Params.navigation_button.enable }}
