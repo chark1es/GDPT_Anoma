@@ -14,31 +14,31 @@ At chuavanhanh.org, we are committed to protecting your privacy. This Privacy Po
 
 ### Information Collection and Use:
 
--   Cloudflare Analytics: We use Cloudflare's analytics services to collect data about website usage for analytical purposes. This may include information such as your IP address, browser type, operating system, referring URLs, and other standard log information. Cloudflare may also use cookies and similar technologies to collect this data.
+- Cloudflare Analytics: We use Cloudflare's analytics services to collect data about website usage for analytical purposes. This may include information such as your IP address, browser type, operating system, referring URLs, and other standard log information. Cloudflare may also use cookies and similar technologies to collect this data.
 
--   Communication Data: When you voluntarily provide us with personal information, such as your name and email address, through forms or direct communication, we collect and store that information. This allows us to respond to your inquiries, provide assistance, and enhance your user experience.
+- Communication Data: When you voluntarily provide us with personal information, such as your name and email address, through forms or direct communication, we collect and store that information. This allows us to respond to your inquiries, provide assistance, and enhance your user experience.
 
 ### Use of Personal Information:
 
 We use the personal information collected for the following purposes:
 
--   To communicate with you and respond to your inquiries.
+- To communicate with you and respond to your inquiries.
 
--   To personalize and improve your experience on the Site.
+- To personalize and improve your experience on the Site.
 
--   To send you newsletters, updates, and promotional materials if you have subscribed to them.
+- To send you newsletters, updates, and promotional materials if you have subscribed to them.
 
--   To monitor and analyze trends, usage, and activities relating to the Site and Services.
+- To monitor and analyze trends, usage, and activities relating to the Site and Services.
 
--   To comply with legal obligations or enforce our rights and agreements.
+- To comply with legal obligations or enforce our rights and agreements.
 
 ### Data Sharing:
 
 We do not sell, trade, or otherwise transfer your personal information to third-party companies without your consent, except as described in this Privacy Policy.
 
--   Service Providers: We may engage third-party service providers to assist with various aspects of our operations. These service providers will have limited access to your personal information as necessary to perform their tasks on our behalf, and they are obligated to protect and use it solely for the purposes we specify.
+- Service Providers: We may engage third-party service providers to assist with various aspects of our operations. These service providers will have limited access to your personal information as necessary to perform their tasks on our behalf, and they are obligated to protect and use it solely for the purposes we specify.
 
--   Legal Compliance: We may share your personal information when required by law, government request, or to protect our rights, property, and safety, as well as the rights, property, and safety of others.
+- Legal Compliance: We may share your personal information when required by law, government request, or to protect our rights, property, and safety, as well as the rights, property, and safety of others.
 
 ### Cookies and Tracking Technologies:
 

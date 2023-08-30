@@ -2,11 +2,11 @@
 <html
   itemscope
   lang="{{ site.LanguageCode | default `en-US` }}"
-  itemtype="http://schema.org/WebPage">
+  itemtype="http://schema.org/WebPage"
+>
   <head>
     <!-- head (don't cache it) -->
     {{ partial "essentials/head.html" . }}
-
 
     <!-- style (always cache it) -->
     {{ partialCached "essentials/style.html" . }}
@@ -14,34 +14,23 @@
 
   <body>
     <!-- cache partial only in production -->
-    {{ if hugo.IsProduction }}
-      {{ partialCached "preloader.html" . }}
-      {{ partialCached "gtm-noscript.html" . }}
-    {{ else }}
-      {{ partial "preloader.html" . }}
+    {{ if hugo.IsProduction }} {{ partialCached "preloader.html" . }} {{
+    partialCached "gtm-noscript.html" . }} {{ else }} {{ partial
+    "preloader.html" . }}
 
-
-      <!-- tailwind size indicator -->
-      {{ partial "components/tw-size-indicator.html" . }}
-    {{ end }}
-
+    <!-- tailwind size indicator -->
+    {{ partial "components/tw-size-indicator.html" . }} {{ end }}
 
     <!-- header (don't cache it) -->
-    {{ partial "essentials/header.html" . }}
-    {{ partial "search-modal.html" (dict "Context" . ) }}
+    {{ partial "essentials/header.html" . }} {{ partial "search-modal.html"
+    (dict "Context" . ) }}
 
-
-    <main>
-      {{ block "main" . }}{{ end }}
-    </main>
+    <main>{{ block "main" . }}{{ end }}</main>
 
     <!-- cache partial only in production -->
-    {{ if hugo.IsProduction }}
-      {{ partialCached "essentials/footer.html" . }}
-      {{ partialCached "essentials/script.html" . }}
-    {{ else }}
-      {{ partial "essentials/footer.html" . }}
-      {{ partial "essentials/script.html" . }}
-    {{ end }}
+    {{ if hugo.IsProduction }} {{ partialCached "essentials/footer.html" . }} {{
+    partialCached "essentials/script.html" . }} {{ else }} {{ partial
+    "essentials/footer.html" . }} {{ partial "essentials/script.html" . }} {{
+    end }}
   </body>
 </html>

@@ -33,20 +33,20 @@ Gia Đình Phật Tửsẽ là nơi nối kết tuổi trẻ, là môi trường
 
 ### ĐỨC HẠNH
 
--   Chánh Niệm
+- Chánh Niệm
 
--   Từ Bi – Thương
+- Từ Bi – Thương
 
--   Trí Huệ – Hiểu
+- Trí Huệ – Hiểu
 
--   Dũng – Bền Chí – Quyết Tâm
+- Dũng – Bền Chí – Quyết Tâm
 
--   Hòa
+- Hòa
 
--   Tin – Đáng Tin Cậy
+- Tin – Đáng Tin Cậy
 
--   Vui
+- Vui
 
--   Biết Ơn
+- Biết Ơn
 
--   Chánh Trực – Chân Thật – Trách Nhiệm
+- Chánh Trực – Chân Thật – Trách Nhiệm

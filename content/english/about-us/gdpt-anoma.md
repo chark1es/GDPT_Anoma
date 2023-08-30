@@ -33,20 +33,20 @@ The Buddhist Youth Association shall be a place connecting members, a good envir
 
 ### MORAL VALUES
 
--   Mindfulness
+- Mindfulness
 
--   Compassion – Love
+- Compassion – Love
 
--   Wisdom – Understanding
+- Wisdom – Understanding
 
--   Perseverance – Diligent – Determination
+- Perseverance – Diligent – Determination
 
--   Harmony
+- Harmony
 
--   Trust – Trustworthy
+- Trust – Trustworthy
 
--   Joy
+- Joy
 
--   Gratitude
+- Gratitude
 
--   Integrity – Honesty – Responsibility
+- Integrity – Honesty – Responsibility

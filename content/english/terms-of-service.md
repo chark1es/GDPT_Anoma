@@ -22,13 +22,13 @@ chuavanhanh.org is a blog website that provides users with access to various art
 
 When using the Site or Services, you agree to adhere to the following guidelines:
 
--   You will not engage in any illegal activities or violate any applicable laws or regulations.
+- You will not engage in any illegal activities or violate any applicable laws or regulations.
 
--   You will not upload, post, transmit, or otherwise distribute any content that is abusive, defamatory, obscene, or infringing upon the rights of others.
+- You will not upload, post, transmit, or otherwise distribute any content that is abusive, defamatory, obscene, or infringing upon the rights of others.
 
--   You will not attempt to gain unauthorized access to any portion of the Site or Services, or any other systems or networks associated with chuavanhanh.org.
+- You will not attempt to gain unauthorized access to any portion of the Site or Services, or any other systems or networks associated with chuavanhanh.org.
 
--   You are solely responsible for ensuring the accuracy, legality, and reliability of any content you submit or display on the Site.
+- You are solely responsible for ensuring the accuracy, legality, and reliability of any content you submit or display on the Site.
 
 ### Intellectual Property:
 
