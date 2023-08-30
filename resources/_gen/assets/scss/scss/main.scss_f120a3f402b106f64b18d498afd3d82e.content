@@ -95,7 +95,7 @@
   .header {
     @apply bg-body  py-6; }
   .navbar {
-    @apply relative flex flex-wrap items-center justify-between; }
+    @apply relative flex  items-center justify-between; }
   .navbar-brand {
     @apply text-dark  text-xl font-semibold; }
     .navbar-brand image {
